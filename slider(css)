@@ -1,0 +1,31 @@
+/*slider*/
+
+.slider {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider > .slide {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: inline-block;
+}
+
+.slider > .slide:nth-child(1) {
+    display: none;
+}
+
+.slide:nth-child(3) {
+    display: none;
+}
+
+
+/*btn*/
+.buttons {
+    text-align: center;
+}
+
+
