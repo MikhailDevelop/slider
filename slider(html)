@@ -1,0 +1,10 @@
+<div class="slider">
+  <div class="slide">slide</div>
+  <div class="slide">slide2</div>
+  <div class="slide">slide3</div>
+</div>
+
+<div class="buttons">
+  <button class="prev">prev</button>
+  <button class="next">next</button>
+</div>
