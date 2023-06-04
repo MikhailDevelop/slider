@@ -1,0 +1,30 @@
+ var slider = document.getElementsByClassName('slider')[0];
+        var slide1 = document.getElementsByClassName('slide')[0];
+        var slide2 = document.getElementsByClassName('slide')[1];
+        var slide3 = document.getElementsByClassName('slide')[2];
+
+        var prev = document.getElementsByClassName('prev')[0];
+        var next = document.getElementsByClassName('next')[0];
+
+        prev.onclick = function() {
+          slide2.style.marginLeft='400px';
+          if(slide2.style.marginLeft = '400px') {
+              slide2.style.display='none';
+              slide1.style.display='block';
+              slide1.style.marginLeft='252px';
+              slide1.style.position='relative';
+          }
+        }
+
+        next.onclick = function() {
+          slide1.style.marginRight='400px';
+          if(slide1.style.marginRight = '400px') {
+              slide1.style.display='none';
+              slide2.style.display='block';
+              slide2.style.marginLeft='252px';
+              slide2.style.marginRight='252px';
+              slide2.style.position='relative';
+          }
+        }
+
+        console.log(slide2);
